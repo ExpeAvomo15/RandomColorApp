@@ -1,0 +1,59 @@
+/* >Estilos generales */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: verdana, sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    background-color: #288078;
+    text-align: center;
+}
+
+/* comprobamos los elementos de forma vertical*/
+.centrar-elementos{
+    display: flex; /*convierte los elementos del contenido en flex item y podemos controlarlos con sus propiedades*/
+    justify-content: center;
+    align-items: center;
+}
+
+/*contenedores*/
+
+#contenedor{
+    height: 220px;
+    width: 450px;
+    background-color: white;
+    border: solid black;
+    flex-direction: column;
+}
+
+/*Boton para cambiar el color*/
+button{
+    font-size: 30px;
+    color: white;
+    border-radius: 20px;
+    background-color: #008CBA;
+    margin: 15px;
+    padding: 10px 30px;
+    border: 3px solid black;
+    user-select: none;
+    cursor: pointer;
+    transition-duration: 0.1s;
+
+}
+
+button :hover{
+    background-color: #05455A;
+}
+
+/*Estilo del footer*/
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    
+}
